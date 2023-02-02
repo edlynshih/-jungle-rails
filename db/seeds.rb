@@ -107,7 +107,7 @@ cat1.products.create!({
   As a defense mechanism the Enirthelda produces a thick, sticky wax.
   They rely on wind pollination to reproduce. Once pollinated, they grow fairly large, inedible nuts.",
   image: open_asset('plante_5.jpg'),
-  quantity: 8,
+  quantity: 0,
   price: 124.99
 })
 
@@ -168,7 +168,7 @@ cat2.products.create!({
   As a defense mechanism the Krapliper produces a thick, sticky wax.
   They rely on self pollination to reproduce. Once pollinated, they grow fairly large, inedible fruits.",
   image: open_asset('plante_9.jpg'),
-  quantity: 32,
+  quantity: 0,
   price: 1999.99
 })
 
@@ -213,7 +213,7 @@ cat3.products.create!({
   As a defense mechanism the Cliff Collard grows thick thorns.
   They rely on winds to carry their seeds away to reproduce. Once pollinated, they grow small, inedible fruits.",
   image: open_asset('plante_12.jpg'),
-  quantity: 23,
+  quantity: 0,
   price: 79.99
 })
 
