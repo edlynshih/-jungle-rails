@@ -3,7 +3,11 @@
 <%= form_for :user, url: '/users' do |f| %>
 
   <div class="signup-form">
-  Name: <%= f.text_field :name %>
+  First Name: <%= f.text_field :first_name %>
+  </div>
+
+  <div class="signup-form">
+  Last Name: <%= f.text_field :last_name %>
   </div>
 
   <div class="signup-form">
