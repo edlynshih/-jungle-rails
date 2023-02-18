@@ -1,4 +1,4 @@
-describe('product-details', () => {
+describe('add-to-cart', () => {
 
   it("should visit home", () => {
     cy.visit('/');
@@ -12,11 +12,14 @@ describe('product-details', () => {
     cy.get(".products article").should("have.length", 2);
   });
 
-  it("Should click on the first article", () => {
-    cy.get(".products article")
+  it("should click on shopping cart", () => {
+    cy.contains("Add")
       .first()
-      .click()
-      .contains("Scented Blade").should("exist")
+      .click({force: true});
+  });
+
+  it("should update the items in shopping cart", () => {
+    cy.contains("My Cart (1)").should("exist")
   });
 
 });
